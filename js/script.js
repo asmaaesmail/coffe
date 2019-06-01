@@ -4,8 +4,8 @@
     /// loading website
 
     jQuery(window).load(function () {
-        $(".loader").fadeOut(500, function () {
-            $(".loading").fadeOut(500);
+        $(".loader").fadeOut(200, function () {
+            $(".loading").fadeOut(200);
             $("body").css("overflow-y", "auto");
         });
     });
